@@ -9,12 +9,6 @@ class Moves(Enum):
     SICCORS = 3
 
 
-class GameResult(Enum):
-    WIN = 6
-    LOSS = 0
-    DRAW = 3
-
-
 @dataclass
 class Game:
     choice_p1: Moves
